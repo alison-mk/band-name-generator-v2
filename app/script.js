@@ -43,7 +43,8 @@ $(function() {
       // Clear field after submission
       $("input[name=adjective]").val('');
 
-    };
+    }
+
     if (verb) {
       verbPost = {word: verb};
 
@@ -54,7 +55,8 @@ $(function() {
 
       // Clear field after submission
       $("input[name=verb]").val('');
-    };
+    }
+
     if (noun) {
       nounPost = {word: noun};
 

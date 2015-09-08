@@ -55,5 +55,3 @@ app.post('/verb', function(req, res) {
   var word = postWord(req.body.word, verb);
   res.json(word);
 });
-
-
